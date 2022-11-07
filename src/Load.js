@@ -8,4 +8,4 @@ const Load = () => {
     )
 }
 
-export default Load
+export default Load;

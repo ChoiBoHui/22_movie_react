@@ -8,7 +8,7 @@ import Glist from './Glist';
 import All from './All';
 import Detail from './Detail';
 
-const App = () => {
+const App2 = () => {
     const genreList = [
         "Action",
         "Adventure",
@@ -20,7 +20,10 @@ const App = () => {
         "Romance",
         "Thriller",
         "Western"
-    ]
+    ];
+
+    const [search, setSearch] = useState('');
+
     return (
         <div>
 
@@ -61,4 +64,4 @@ const App = () => {
     )
 }
 
-export default App
+export default App2
